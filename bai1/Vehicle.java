@@ -1,3 +1,5 @@
+package bai1;
+
 public interface Vehicle {
     void getName();
 

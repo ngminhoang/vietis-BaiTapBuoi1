@@ -1,8 +1,10 @@
-public class Car implements Vehicle {
+package bai1;
+
+public class Bike implements Vehicle {
     @Override
     public void getName() {
         try {
-            System.out.println("Car");
+            System.out.println("bai1.Bike");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -11,7 +13,7 @@ public class Car implements Vehicle {
     @Override
     public void run() {
         try {
-            System.out.println("Car is running...");
+            System.out.println("bai1.Bike is running...");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -20,7 +22,7 @@ public class Car implements Vehicle {
     @Override
     public void stop() {
         try {
-            System.out.println("Car stopped!");
+            System.out.println("bai1.Bike stopped!");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
